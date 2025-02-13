@@ -40,8 +40,6 @@ void zodiac_sign (int bm, int bd)
     else if ((bm == 3 && bd >= 21) || (bm == 4 && bd <= 19))
         printf("Aries ♈︎\nDescription: Energetic, courageous, and determined. \n");
 
-    else if (bm > 12 || bd > 31)
-        printf("Invalid Birthmonth / Birthdate!\n");
 
 }
 
